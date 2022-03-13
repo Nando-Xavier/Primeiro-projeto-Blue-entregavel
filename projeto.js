@@ -46,19 +46,19 @@ if (pergunta05 == 'sim') {
 const soma = sim1 + sim2 + sim3 + sim4 + sim5;
 
 if (soma == 0) {
-    console.log('Você falhou miseravelmente.');
+    console.log('O pai de família falhou em manter sua família.');
 } else if (soma <= 2) {
-    console.log('Você falhou, mas conseguiu fugir da situação.');
+    console.log('O pai de família falhou, mas conseguiu fornecer o básico.');
 } else if (soma == 3) {
     console.log(
-        'Você chegou perto de conseguir alcançar seu objetivo, mas acabou falhando por pouco.',
+        'O pai de família chegou perto de conseguir alcançar seu objetivo, mas acabou falhando por pouco.',
     );
 } else if (soma == 4) {
     console.log(
-        'Depois de muito esforço você conquistou seu objetivo, embora não de maneira perfeita.',
+        'Depois de muito esforço, o pai de família conquistou seu objetivo, embora não de maneira perfeita.',
     );
 } else if (soma == 5) {
     console.log(
-        'Você triunfou de maneira inquestionável e seus feitos serão lembrados por muitas gerações.',
+        'O pai de familia triunfou de maneira inquestionável e seus feitos serão lembrados por muitas gerações.',
     );
 }
