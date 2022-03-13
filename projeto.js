@@ -48,7 +48,9 @@ const soma = sim1 + sim2 + sim3 + sim4 + sim5;
 if (soma == 0) {
     console.log('O pai de família falhou em manter sua família.');
 } else if (soma <= 2) {
-    console.log('O pai de família falhou, mas conseguiu fornecer o básico.');
+    console.log(
+        'O pai de família falhou, mas conseguiu fornecer o básic para sua família.',
+    );
 } else if (soma == 3) {
     console.log(
         'O pai de família chegou perto de conseguir alcançar seu objetivo, mas acabou falhando por pouco.',
